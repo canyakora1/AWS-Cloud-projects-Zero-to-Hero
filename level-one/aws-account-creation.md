@@ -4,7 +4,7 @@ You can always refer to [AWS-account-creation](https://docs.aws.amazon.com/SetUp
 
 **But I'll be showcasing how to protect the root account and create an IAM user that would be used in our demos.** 
 
-After creating your AWS account, to IAM [Identity and Access Management](https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html)
+After creating your AWS account, Go to IAM [Identity and Access Management](https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html)
 
 ## Identity and Access Management
 AWS Identity and Access Management (IAM) is a service provided by Amazon Web Services (AWS) that allows you to manage access to your AWS resources securely. IAM enables you to control who can access your AWS resources (authentication) and what actions they can perform on those resources (authorization).
@@ -59,7 +59,7 @@ Scan the QR code and fill in two consecutive code from your MFA device
 Click "add MFA" to proceed
 
 ## Step four:
-Now you should havee MFA configured for the root account: :-)
+Now you should have MFA configured for the root account: :-)
 
 ![mfa-done](/level-one/images/configure-mfa3.png)
 
