@@ -5,19 +5,19 @@
 
 ![aws-design](/level-one/iam-images/iam.jpg)
 
-# Creating an IAM User:
+## Creating an IAM User:
 What are IAM Users? IAM allows you to create individual user accounts for people, applications, or services that need access to your AWS resources. Each user has a unique set of security credentials. For more information click [here.](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users.html)
 
 Let us start by creating the IAM user that would be used for the remainder of the project
 
 Name: Bruce Banner (You are free to choose any username that you want)
 
-# Step one:
+## Step one:
 ![iam-username](/level-one/iam-images/iam1.png)
 
 Click next
 
-# Step two:
+## Step two:
 ![iam-userDetails](/level-one/iam-images/iam2.png)
 
 - I choose a username: bruce_banner
@@ -27,7 +27,7 @@ Click next
 
 Then click Next
 
-# Step three:
+## Step three:
 ![iam-policy](/level-one/iam-images/iam3.png)
  - Under "Set permissions", choose "Attach policies directly"
  - Under Permissions policies, search for "AdministratorAccess", click the radio button next to AdministratorAccess
@@ -49,6 +49,6 @@ Then click Next
     ]
 }
 
-# Step four:
+## Step four:
 **Review and create**
 ![iam-review](/level-one/iam-images/iam4.png)
