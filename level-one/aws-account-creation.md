@@ -39,14 +39,14 @@ IAM is a fundamental component of AWS security, and proper IAM configuration is 
 
 ## Step One:
 You will notice that the root account doesn't have mfa (Multi-factor authentication) configured
-[root-mfa](/level-one/root-mfa.png)
+![root-mfa](/level-one/images/root-mfa.png)
 
 Click "Set-up MFA" and proceed with the next step
 
 ## Step two:
 Give the MFA device name is suitable name and for MFA device, we will go with "Authenticator App". Feel free to select an MFA device that is applicable to you.
 
-[mfa-device-name](/level-one/configure-mfa1.png)
+![mfa-device-name](/level-one/images/configure-mfa1.png)
 
 Click next to proceed
 
@@ -54,13 +54,13 @@ Click next to proceed
 Click "Show QR Code" to reveal secret key. By then you should have download the "authenticator app" on your phone. 
 Scan the QR code and fill in two consecutive code from your MFA device
 
-[Scan-QRCODE](/level-one/configure-mfa2.png)
+![Scan-QRCODE](/level-one/images/configure-mfa2.png)
 
 Click "add MFA" to proceed
 
 ## Step four:
 Now you should havee MFA configured for the root account: :-)
 
-[mfa-done](/level-one/configure-mfa3.png)
+![mfa-done](/level-one/images/configure-mfa3.png)
 
 
