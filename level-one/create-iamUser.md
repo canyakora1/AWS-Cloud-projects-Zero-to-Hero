@@ -36,18 +36,6 @@ Then click Next
 
  **It is not security best pratice that attach policies directly on users, but instead create an IAM group (logical groupings for multiple users and then policies are assigned as a group)** 
 
-## IAM POLICY for the Administrator Access
-
-{
-    "Version": "2012-10-17",              <!----------- Shows the version of the policy --------------->
-    "Statement": [                          <!------ A policy can contain single or multiple statements ------------>
-        {
-            "Effect": "Allow",              <!----------- Effect is either an allow or deny --------------->
-            "Action": "*",                  <!----- Shows what actions are allowed or denied. * means all actions  ------>
-            "Resource": "*"             <!----- Shows the resource(s) included in this policy --------->
-        }
-    ]
-}
 
 ## Step four:
 **Review and create**
