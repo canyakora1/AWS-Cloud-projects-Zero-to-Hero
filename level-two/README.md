@@ -4,6 +4,7 @@
 
 
 **In this second project, we will be configuring a three tier AWS Architecture that comprises of:**
+
 - One Virtual Private Cloud (VPC) in one region (e.g us-east-1)
     - the CIDR block range for your VPC, 
     - And any additional options such as DNS support or tenancy.
@@ -29,4 +30,7 @@
 These are the basic steps involved in building a three-tier AWS architecture using the AWS Management console. Depending on your specific requirements, you may need to add additional resources or configuration options. Be sure to refer to the AWS documentation for detailed guidance and best practices.
 
 ## Lessons covered ##
+* Security Groups
+* Network Access Control Lists (NACL)
+
 
