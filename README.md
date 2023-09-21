@@ -31,4 +31,5 @@ There would be a few requirements that would be needed to help us navigate throu
 The demo would be structured in 'Levels' beginning from Level one to ten. The lower the number, the less complexity and difficulty. 
 
 - [Level 1: Creation an AWS account, IAM user and assigning policies](/level-one/create-iamUser.md)
-- Level 2: Deploying our three tier network architecture
+- [Level 2: Deploying a three (3) tier network architecture](/level-two/README.md)
+- Level 3: Deployment A webserver (EC2 Instance) configured with a load balancer in the Public subnet (DMZ)
