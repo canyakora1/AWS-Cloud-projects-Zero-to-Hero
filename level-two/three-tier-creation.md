@@ -26,12 +26,12 @@ For the projects requirements, we should have:
 * VPC endpoints: None
 * Remember to check "Enale DNS hostnames" and "Enable DNS resolution" if unchecked.
 
-[image2](/level-two/images/dcgmedia-vpc.png)
+![image2](/level-two/images/dcgmedia-vpc.png)
 
 * Click create VPC
 
 **Wait till your resources are fully created before proceeding**
 
-[image3](/level-two/images/view-vpc.png)
+![image3](/level-two/images/view-vpc.png)
 
 * Click view VPC
