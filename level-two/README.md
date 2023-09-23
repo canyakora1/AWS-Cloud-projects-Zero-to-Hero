@@ -29,8 +29,12 @@
 
 These are the basic steps involved in building a three-tier AWS architecture using the AWS Management console. Depending on your specific requirements, you may need to add additional resources or configuration options. Be sure to refer to the AWS documentation for detailed guidance and best practices.
 
-## Lessons covered ##
-* Security Groups
-* Network Access Control Lists (NACL)
+
+## Further readings ##
+* [Security Groups](https://docs.aws.amazon.com/vpc/latest/userguide/security-groups.html)
+* [Network Access Control Lists (NACL)](https://docs.aws.amazon.com/vpc/latest/userguide/vpc-network-acls.html)
+* [Route-tables](https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Route_Tables.html)
+* [Internet Gateway](https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Internet_Gateway.html)
+* [Virtual Private Cloud (VPC)](https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html)
 
 
