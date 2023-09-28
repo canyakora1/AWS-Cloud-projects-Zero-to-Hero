@@ -41,7 +41,7 @@ The instance will launch with the specified bootstrap script, which installs and
 * Configure health checks based on your application's requirements.
 * Review and create the load balancer.
 
-Step 4: Register EC2 Instances
+## Step 4: Register EC2 Instances ##
 
 * Once the ELB is created, register your EC2 instances with the load balancer:
     * In the EC2 console, select your instances.
