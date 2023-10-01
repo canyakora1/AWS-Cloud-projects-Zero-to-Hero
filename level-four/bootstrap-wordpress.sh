@@ -1,14 +1,10 @@
 #!/bin/bash -xe
 
 # STEP 1 - Setpassword & DB Variables
-echo "What would be your Database name? "
-read DBName
-echo "What would be your Database username? "
-read DBUser
-echo "What would be your Database password? "
-read DBPassword
-echo "What would be the Root Password? "
-read DBRootPassword
+DBName='wordpress'
+DBUser='wordpressuser'
+DBPassword='Password123@'
+DBRootPassword='Pa$$Word00@'
 
 # STEP 2 - Install system software - including Web and DB
 dnf install wget php-mysqlnd httpd php-fpm php-mysqli mariadb105-server php-json php php-devel -y
