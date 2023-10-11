@@ -24,3 +24,19 @@ aws s3api create-bucket \
 --bucket <REPLACED_FOR_BUCKET_NAME> \
 --region us-east-1 \
 --profile <REPLACED_FOR_PROFILE_NAME>
+
+## Upload objects into Amazon s3 via Mgt Console
+Steps:
+* On the AWS console, go to the search bar and type "s3"
+* Locate the newly create s3 bucket, in my case it is test-bucket1212
+* Click on the newly created bucket and located the upload button.
+* Click the upload button
+* You would be presented with a few options, "remove", "Add file" and "Add folder"
+* Click add file and upload an object stored on your device.
+* Click upload
+
+## Upload objects via the AWS CLI
+run:
+aws s3 cp index.html s3://test-bucket1212
+- index.html is a file stored on my local device
+- s3://test-bucket1212 is the uri for the target bucket

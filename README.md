@@ -34,5 +34,7 @@ The demo would be structured in 'Levels' beginning from Level one to ten. The lo
 - [Level 2: Deploying a three (3) tier network architecture](/level-two/README.md)
 - [Level 3: Deployment A webserver (EC2 Instance) configured with a load balancer in the Public subnet (DMZ)](/level-three/README.md)
 - [level 4: Create a wordpress site on our Ec2 Instances and enable load-balancing](/level-four/README.md)
-- Level 5: Create two s3 buckets and locally upload contents into those buckets via the Console and CLI
+- [Level 5: Create two s3 buckets and locally upload contents into those buckets via the Console and CLI](/level-five/s3-create-upload.md)
+- Level 6: 
+
 
